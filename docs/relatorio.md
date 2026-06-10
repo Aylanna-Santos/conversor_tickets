@@ -6,7 +6,7 @@ Registrar os resultados da execução dos testes automatizados com PyTest, valid
 ---
 
 ## Ambiente de Teste
-- Sistema Operacional: Windows 11
+- Sistema Operacional: Windows 10
 - Python: 3.14.0
 - Framework de Teste: PyTest 9.0.3
 - Ambiente Virtual: venv
