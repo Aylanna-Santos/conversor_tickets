@@ -44,32 +44,7 @@ Cada ticket vale R$ 5,00. O sistema calcula a quantidade de tickets, informa se 
    ```bash
    pytest --junitxml=tests/test-report.xml
    ```
-
----
-
-## Estrutura do Projeto
-
-conversor_tickets/
-│
-├── src/
-│   ├── conversor.py        # Lógica principal
-│   └── main.py             # Execução da aplicação
-│
-├── tests/
-│   └── test_converter.py   # Testes automatizados com PyTest
-│
-├── docs/
-│   ├── plano_teste.md      # Testes de caixa preta e branca
-│   ├── relatorio.md        # Relatório de execução dos testes
-│   └── equipe.md           # Nomes e matrículas da equipe
-│
-├── .github/
-│   └── workflows/
-│       └── ci.yml          # Pipeline DevOps (GitHub Actions)
-│
-├── README.md               # Documentação principal
-└── .gitignore              # Arquivos ignorados no versionamento
-
+   
 ---
 
 ## Integração com DevOps
