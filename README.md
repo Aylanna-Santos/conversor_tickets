@@ -18,7 +18,7 @@ Cada ticket vale R$ 5,00. O sistema calcula a quantidade de tickets, informa se 
    ```bash
    python -m venv venv
    source venv/bin/activate   # Linux/Mac
-   venv\Scripts\activate      # Windows
+   source venv/Scripts/activate      # Windows
    ```
 
 3. Instale as dependências:
